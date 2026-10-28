@@ -39,7 +39,7 @@ class _MenuListPageState extends State<MenuListPage> {
     return Scaffold(
       appBar: AppBar(
         title: const CustomText(
-          'KantinKu',
+          'Kantin Mamah Dedeh',
           fontSize: 22,
           fontWeight: FontWeight.bold,
           color: Colors.white,
@@ -51,10 +51,10 @@ class _MenuListPageState extends State<MenuListPage> {
           Padding(
             padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 8.0),
             child: const CustomText(
-              'Daftar Menu Tersedia',
+              'Mangan Sek lur ',
               fontSize: 18,
               fontWeight: FontWeight.bold,
-              color: Color(0xFF0F5132),
+              color: Color.fromARGB(255, 148, 2, 102),
             ),
           ),
           Expanded(
@@ -75,7 +75,7 @@ class _MenuListPageState extends State<MenuListPage> {
                   child: ListTile(
                     leading: Icon(
                       _getMenuIcon(menu.name),
-                      color: const Color(0xFF0F5132),
+                      color: const Color.fromARGB(255, 148, 2, 102),
                       size: 28,
                     ),
                     title: CustomText(
@@ -87,7 +87,7 @@ class _MenuListPageState extends State<MenuListPage> {
                       formatRupiah(menu.price),
                       fontSize: 14,
                       fontWeight: FontWeight.w500,
-                      color: const Color(0xFF2E7D32),
+                      color: const Color.fromARGB(255, 148, 2, 102),
                     ),
                     trailing: const Icon(
                       Icons.chevron_right,
@@ -126,7 +126,7 @@ class _MenuListPageState extends State<MenuListPage> {
             });
           }
         },
-        backgroundColor: const Color(0xFF0F5132),
+        backgroundColor: const Color.fromARGB(2255, 148, 2, 102),
         foregroundColor: Colors.white,
         child: const Icon(Icons.add),
       ),

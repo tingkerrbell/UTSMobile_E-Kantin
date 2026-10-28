@@ -57,10 +57,6 @@ class _AddMenuPageState extends State<AddMenuPage> {
                 decoration: InputDecoration(
                   labelText: 'Nama Menu',
                   hintText: 'Masukkan nama makanan atau minuman',
-                  prefixIcon: const Icon(Icons.restaurant_menu),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
                 ),
                 validator: (value) {
                   if (value == null || value.trim().isEmpty) {
@@ -77,10 +73,6 @@ class _AddMenuPageState extends State<AddMenuPage> {
                 decoration: InputDecoration(
                   labelText: 'Harga Menu (Rp)',
                   hintText: 'Contoh: 15000',
-                  prefixIcon: const Icon(Icons.payments_outlined),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
                 ),
                 validator: (value) {
                   if (value == null || value.trim().isEmpty) {
@@ -97,7 +89,7 @@ class _AddMenuPageState extends State<AddMenuPage> {
               ElevatedButton(
                 onPressed: _submit,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF0F5132),
+                  backgroundColor: const Color.fromARGB(255, 148, 2, 102),
                   foregroundColor: Colors.white,
                   padding: const EdgeInsets.symmetric(vertical: 14),
                   shape: RoundedRectangleBorder(

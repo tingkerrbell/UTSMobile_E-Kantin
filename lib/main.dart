@@ -13,17 +13,17 @@ class KantinKuApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'KantinKu',
+      title: 'Kantin Mamah Dedeh',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF0F5132),
-          primary: const Color(0xFF0F5132),
+          seedColor: const Color.fromARGB(255, 148, 2, 102),
+          primary: const Color.fromARGB(255, 148, 2, 102),
         ),
-        scaffoldBackgroundColor: const Color(0xFFF8F9FA),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 255, 220, 236),
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFF0F5132),
+          backgroundColor: Color.fromARGB(255, 148, 2, 102),
           foregroundColor: Colors.white,
           elevation: 0,
           centerTitle: true,
